@@ -1,4 +1,3 @@
-import type { string } from 'prop-types'
 import React, { useState } from 'react'
 
 export default function SignUp () {
