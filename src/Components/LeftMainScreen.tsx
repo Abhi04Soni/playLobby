@@ -14,7 +14,7 @@ export default function LeftColumn() {
         status: "online"
     }]
   return (
-    <div className="w-[10%] p-2 fixed top-16 left-0  h-[calc(100vh-4rem)] bg-gray-800 text-white z-40">
+    <div className="w-[10%] p-2 bg-gray-800 text-white flex-shrink-0">
           <Avatar />
           <Avatar />
           <Avatar/>

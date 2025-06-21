@@ -1,4 +1,3 @@
-import React from 'react'
 import avatarImage from '../assets/60111.jpg'
 
 export default function Avatar() {

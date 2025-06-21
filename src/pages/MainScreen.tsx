@@ -1,17 +1,16 @@
-import React from 'react'
 import Navbar from '../Components/Navbar'
 import LeftColumn from '../Components/LeftMainScreen'
 import RightColumn from '../Components/RighMainScreen'
 import CenterColumn from '../Components/MiddleMainScreen'
-export default function MainScreen () {
+export default function MainScreen() {
   return (
-    <div className='h-screen max-w-screen overflow-x-hidden'>
+    <div className='h-screen w-screen overflow-hidden flex flex-col pt-16'>
       <Navbar />
-          <div className='flex h-screen w-[99%]'>
-              <LeftColumn />
-              <CenterColumn />
-              <RightColumn />
+      <div className='flex flex-grow w-full'>
+        <LeftColumn />
+        <CenterColumn />
+        <RightColumn />
       </div>
     </div>
-  )
+  );
 }
